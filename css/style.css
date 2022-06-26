@@ -1,0 +1,291 @@
+/* roboto-regular - latin */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		url('/fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('/fonts/roboto-v30-latin-regular.woff') format('woff');
+	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-500 - latin */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: local(''),
+		url('../fonts/roboto-v30-latin-500.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('../fonts/roboto-v30-latin-500.woff') format('woff');
+	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-500italic - latin */
+@font-face {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-weight: 500;
+	src: local(''),
+		url('../fonts/roboto-v30-latin-500italic.woff2') format('woff2'),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('../fonts/roboto-v30-latin-500italic.woff') format('woff');
+	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: white;
+	margin: 0 auto;
+}
+
+.content {
+	width: 100%;
+	max-width: 1219px;
+	padding: 0 55px;
+	margin: 0 auto;
+}
+
+/* Header styles start */
+
+.header {
+	background-color: #007765;
+	height: 84px;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.header_content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_list {
+	display: flex;
+}
+
+.header_item {
+	margin-right: 8px;
+}
+
+.header_item:last-child {
+	margin-right: 0;
+}
+
+.header_link {
+	color: white;
+	text-decoration: none;
+}
+
+.header_link:hover,
+.header_link:focus,
+.header_link:active {
+	opacity: .75;
+}
+
+/* Header styles end */
+
+/* Intro styles star */
+.intro {
+	background: url(/img/intro_bf.png) no-repeat center;
+	background-size: cover;
+	margin-top: 84px;
+	padding: 160px 0;
+}
+
+.intro_title {
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+}
+
+/* Intro styles end */
+
+/* Problem styles star */
+.problem {
+	padding-top: 50px;
+	margin-top: -50px;
+}
+
+.title {
+	padding-top: 48px;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+}
+
+.text_problem {
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 38px;
+	margin-top: 16px;
+	color: #000000;
+}
+
+.text_problem p {
+	padding-bottom: 41px;
+}
+
+p:last-child {
+	padding-bottom: 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* Problem styles end */
+
+/* Part2 styles star */
+
+.part2 {
+	background: url(/img/part2_bg.png);
+	background-size: cover;
+	background-position: center center;
+	margin-top: 92px;
+	padding: 128px 0;
+}
+
+.text2 {
+	font-style: italic;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	padding: 0px 108px;
+}
+
+/* Part2 styles end */
+
+/* Part3 styles star */
+
+.part3 {
+	padding-top: 80px;
+	margin-top: -80px;
+}
+
+.inroducing {
+	margin-top: 48px;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+}
+
+.text_logo {
+	margin-top: 16px;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 38px;
+	color: #000000;
+}
+
+.logo {
+	float: left;
+}
+
+.piedpiper {
+	margin-left: 163px;
+	margin-right: 16px;
+}
+
+.text3 {
+	margin-top: 40px;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 38px;
+	color: #000000;
+	margin-bottom: 92px;
+}
+
+.receive {
+	padding-bottom: 41px;
+}
+
+/* Part3 styles end */
+
+/* The Team styles star */
+.theteam {
+	background-color: #EEEEEE;
+	padding-bottom: 122px;
+}
+
+.team {
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+	padding-top: 48px;
+	padding-bottom: 56px;
+}
+
+.fio {
+	display: block;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: #007765;
+	margin-top: 12px;
+
+}
+
+.work {
+	display: block;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	gap: 82px 0px;
+}
+
+[class ^="flex-item"] {
+	flex-basis: 33.3333%;
+}
+
+/* The Team styles end */
+
+/* Footer styles star */
+.footer {
+	background: #333333;
+	background-size: cover;
+	padding-top: 48px;
+	padding-bottom: 64px;
+}
+
+.text5 {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	margin: 0 285px;
+}
+
+/* Footer styles end */
